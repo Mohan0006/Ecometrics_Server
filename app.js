@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 const fs = require('fs');
 
 //environment variables
-dotenv.config({path: 'config/config.env'});
+dotenv.config();
 
 //routes
 const getWeather = require("./routes/weatherRoute");
